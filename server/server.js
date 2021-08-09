@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 // dbCoonection.on('error',()=>{console.log('Connection Error')})
 
-app.use('/students',studentRouter)
+app.use('/API/students',studentRouter)
 
 app.listen(PORT,()=>{
     console.log("Listen On Port 8080");
