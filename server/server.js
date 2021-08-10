@@ -5,7 +5,6 @@ const path = require('path')
 const PORT = process.env.PORT || 8080;
 const cors = require('cors')
 const studentRouter = require('./routers/studentRouter')
-const dbCoonection = require('./DB/index')
 
 const app = express();
 app.use(express.json());
